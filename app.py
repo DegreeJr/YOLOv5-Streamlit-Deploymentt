@@ -8,7 +8,7 @@ from datetime import datetime
 from video_predict import runVideo
 
 # Konfigurasi Model
-CFG_MODEL_PATH = "models/bird_model.pt"
+CFG_MODEL_PATH = "models/best.pt"
 CFG_ENABLE_VIDEO_PREDICTION = True
 
 def load_model():
