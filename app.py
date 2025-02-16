@@ -10,7 +10,7 @@ import wget
 from video_predict import runVideo
 
 # Configurations
-CFG_MODEL_PATH = "models/yourModel.pt"
+CFG_MODEL_PATH = "models/best.pt"
 CFG_ENABLE_URL_DOWNLOAD = True
 CFG_ENABLE_VIDEO_PREDICTION = True
 
